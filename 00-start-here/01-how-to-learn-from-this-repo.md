@@ -1,8 +1,8 @@
-\# 01 — How to Learn From This Repository
+# 01 — How to Learn From This Repository
 
 
 
-\## Why This Page Exists
+## Why This Page Exists
 
 
 
@@ -14,11 +14,11 @@ I am writing this as a student who is learning step by step. I do not want these
 
 
 
-\---
+---
 
 
 
-\## 1. The Main Idea
+## 1. The Main Idea
 
 
 
@@ -46,11 +46,11 @@ I do not want to learn topics randomly. I want to build a mental map where every
 
 
 
-\---
+---
 
 
 
-\## 2. How Each Lesson Will Be Written
+## 2. How Each Lesson Will Be Written
 
 
 
@@ -64,23 +64,23 @@ The usual structure will be:
 
 ```text
 
-1\\\\. Why am I learning this?
+1\\\. Why am I learning this?
 
-2\\\\. Intuition
+2\\\. Intuition
 
-3\\\\. Definition
+3\\\. Definition
 
-4\\\\. Mathematical idea
+4\\\. Mathematical idea
 
-5\\\\. Small example
+5\\\. Small example
 
-6\\\\. Short code
+6\\\. Short code
 
-7\\\\. Common mistakes
+7\\\. Common mistakes
 
-8\\\\. What I understood
+8\\\. What I understood
 
-9\\\\. Mini exercise
+9\\\. Mini exercise
 
 ```
 
@@ -90,11 +90,11 @@ This structure helps me avoid passive reading. I do not want to only collect not
 
 
 
-\---
+---
 
 
 
-\## 3. My Learning Style
+## 3. My Learning Style
 
 
 
@@ -110,11 +110,11 @@ For example, before learning the formula of a loss function, I should first unde
 
 
 
-\---
+---
 
 
 
-\## 4. Intuition First, Formula Second, Code Third
+## 4. Intuition First, Formula Second, Code Third
 
 
 
@@ -136,7 +136,7 @@ For example, Mean Squared Error is a common loss function for regression problem
 
 ```text
 
-MSE = (1/n) \\\\\\\* Σ(y\\\\\\\_i - ŷ\\\\\\\_i)^2
+MSE = (1/n) \\\\\\- Σ(y\\\\\\_i - ŷ\\\\\\_i)^2
 
 ```
 
@@ -148,9 +148,9 @@ In Python, the same idea can be written like this:
 
 ```python
 
-errors = y\\\\\\\_true - y\\\\\\\_pred
+errors = y\\\\\\_true - y\\\\\\_pred
 
-mse = (errors \\\\\\\*\\\\\\\* 2).mean()
+mse = (errors \\\\\\-\\\\\\- 2).mean()
 
 ```
 
@@ -160,11 +160,11 @@ The formula and the code are saying the same thing in different languages. The f
 
 
 
-\---
+---
 
 
 
-\## 5. How to Read the Lessons
+## 5. How to Read the Lessons
 
 
 
@@ -188,11 +188,11 @@ After that, I should write a small piece of code whenever possible. Even five li
 
 
 
-\---
+---
 
 
 
-\## 6. Repository Structure
+## 6. Repository Structure
 
 
 
@@ -242,15 +242,15 @@ Each folder has a purpose. `00-start-here` is for setup and learning workflow. `
 
 
 
-\---
+---
 
 
 
-\## 7. Learning Stages
+## 7. Learning Stages
 
 
 
-\### Stage 0: Start Here
+### Stage 0: Start Here
 
 
 
@@ -258,7 +258,7 @@ This stage is about building a clean learning environment. Before training model
 
 
 
-\### Stage 1: Python for Machine Learning
+### Stage 1: Python for Machine Learning
 
 
 
@@ -266,7 +266,7 @@ Python is the main programming language I will use for Machine Learning. In this
 
 
 
-\### Stage 2: Math for Machine Learning
+### Stage 2: Math for Machine Learning
 
 
 
@@ -274,7 +274,7 @@ Machine Learning uses math to describe learning. I will focus on linear algebra,
 
 
 
-\### Stage 3: Data Analysis
+### Stage 3: Data Analysis
 
 
 
@@ -282,7 +282,7 @@ Before training models, I need to understand data. This stage will include NumPy
 
 
 
-\### Stage 4: Classical Machine Learning
+### Stage 4: Classical Machine Learning
 
 
 
@@ -290,7 +290,7 @@ This stage is about algorithms such as K-Nearest Neighbors, Linear Regression, L
 
 
 
-\### Stage 5: Deep Learning
+### Stage 5: Deep Learning
 
 
 
@@ -298,7 +298,7 @@ Deep Learning is about neural networks and representation learning. I will study
 
 
 
-\### Stage 6: LLMs and RAG
+### Stage 6: LLMs and RAG
 
 
 
@@ -306,7 +306,7 @@ Modern AI systems often use language models. In this stage, I will study embeddi
 
 
 
-\### Stage 7: MLOps and Deployment
+### Stage 7: MLOps and Deployment
 
 
 
@@ -314,7 +314,7 @@ A model is not useful only because it works in a notebook. A real model should b
 
 
 
-\### Stage 8: Projects
+### Stage 8: Projects
 
 
 
@@ -322,11 +322,11 @@ Projects will connect everything together. A good project should include a probl
 
 
 
-\---
+---
 
 
 
-\## 8. My Learning Rules
+## 8. My Learning Rules
 
 
 
@@ -350,11 +350,11 @@ My fifth rule is to practice with code. Machine Learning is learned by doing, no
 
 
 
-\---
+---
 
 
 
-\## 9. How I Will Know I Understand a Topic
+## 9. How I Will Know I Understand a Topic
 
 
 
@@ -382,11 +382,11 @@ If the answer is yes, then I understand the topic better. If the answer is no, I
 
 
 
-\---
+---
 
 
 
-\## Final Reflection
+## Final Reflection
 
 
 
@@ -399,4 +399,5 @@ That is normal.
 
 
 The important thing is to keep moving in the right direction: one lesson at a time, one commit at a time, one concept at a time.
+
 
