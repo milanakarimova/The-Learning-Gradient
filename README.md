@@ -2,7 +2,7 @@
 
 ## Learning Machine Learning from Zero, One Concept at a Time
 
-Welcome to **The Learning Gradient** — my personal learning journey from the foundations of Machine Learning to deeper AI Engineering topics such as Deep Learning, Transformers, LLMs, RAG, and MLOps.
+Welcome to **The Learning Gradient**, my personal learning journey from the foundations of Machine Learning to deeper AI Engineering topics such as Deep Learning, Transformers, LLMs, RAG, and MLOps.
 
 This repository is written from the perspective of a student who is learning step by step. It is not meant to feel like a dry textbook. I want it to feel like a real learning process: clear, practical, sometimes mathematical, and always connected to understanding.
 
