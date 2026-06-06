@@ -4,8 +4,6 @@
 
 This is the first serious mathematical lesson in the **Math for Machine Learning** section.
 
-Because my math background is strong, I do not want to treat vectors as a shallow topic. In olympiad-style mathematics, vectors often appear through geometry, coordinates, lengths, angles, bases, linear combinations, and transformations. In Machine Learning, all of those ideas remain important, but the interpretation becomes wider and more powerful.
-
 In Machine Learning, a vector can represent a real-world object.
 
 A vector can represent:
