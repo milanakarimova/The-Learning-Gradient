@@ -1,4 +1,4 @@
-# 🎓 Math for Machine Learning — Completion Reflection
+# 🎓 Math for Machine Learning: Completion Reflection
 
 ## You Made It Here
 
