@@ -12,7 +12,7 @@ Not a casual one.
 
 A real one.
 
-Because reaching this point means you did not only scroll through notes. You stayed with difficult ideas. You met formulas, vectors, gradients, probability, statistics, optimization, and evaluation — and you kept going.
+Because reaching this point means you did not only scroll through notes. You stayed with difficult ideas. You met formulas, vectors, gradients, probability, statistics, optimization, and evaluation and you kept going.
 
 So first:
 
