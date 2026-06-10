@@ -982,23 +982,7 @@ KNN assumes local similarity is meaningful.
 
 ---
 
-## 27. Interview-Level Explanation
-
-Short explanation:
-
-```text
-K-Nearest Neighbors is a supervised, non-parametric, lazy learning algorithm. It stores the training data and predicts a new point based on the k closest training examples according to a distance metric. For classification, it uses majority vote. For regression, it averages neighbor target values. Its performance depends heavily on feature scaling, distance metric, k, and dimensionality.
-```
-
-Natural explanation:
-
-```text
-KNN is like asking the closest examples for advice. If a new point looks similar to several training points, we assume it should have a similar label or value. It is simple and intuitive, but it can struggle when distance stops being meaningful.
-```
-
----
-
-## 28. What I Learned From This Lesson
+## 27. What I Learned From This Lesson
 
 KNN teaches important ML culture:
 
