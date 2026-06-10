@@ -1233,26 +1233,9 @@ Sigmoid and log loss need careful implementation.
 ### Mistake 8: Not using regularization
 
 Without regularization, coefficients can become unstable, especially with separable or high-dimensional data.
-
 ---
 
-## 32. Interview-Level Explanation
-
-Short version:
-
-```text
-Logistic Regression is a supervised classification algorithm that models the probability of the positive class. It computes a linear score z = wᵀx + b, passes it through the sigmoid function to get a probability, and learns parameters by minimizing binary cross-entropy. Probabilistically, it corresponds to maximum likelihood estimation under a Bernoulli model. The decision boundary at threshold 0.5 is linear because sigmoid(z)=0.5 when z=0.
-```
-
-Natural version:
-
-```text
-Logistic Regression is like Linear Regression’s classification cousin. It still uses a weighted sum of features, but instead of outputting any real number, it uses sigmoid to turn the score into a probability. Then it learns by making the true labels less surprising under those probabilities.
-```
-
----
-
-## 33. What I Learned From This Lesson
+## 32. What I Learned From This Lesson
 
 Logistic Regression connects many major ML ideas:
 
