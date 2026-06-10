@@ -1056,23 +1056,7 @@ It only searches what I define. Bad search space gives bad selection.
 
 ---
 
-## 29. Interview-Level Explanation
-
-Short explanation:
-
-```text
-Model selection is the process of choosing the model family, preprocessing steps, hyperparameters, and decision thresholds using validation data or cross-validation. Cross-validation gives a more stable estimate by rotating validation folds. Pipelines are important because they ensure preprocessing is fitted only on training data within each split, reducing leakage. The test set should be used only after model selection for an unbiased final estimate.
-```
-
-Natural explanation:
-
-```text
-Model selection is how we choose a model without fooling ourselves. We train on training data, choose using validation or cross-validation, and keep the test set for the final honest check. Pipelines help because they package preprocessing and modeling together, so the same clean workflow is repeated safely inside each fold.
-```
-
----
-
-## 30. What I Learned From This Lesson
+## 29. What I Learned From This Lesson
 
 This lesson taught me that strong ML is not only about algorithms.
 
@@ -1155,21 +1139,6 @@ Why can repeated test-set checking be dangerous?
 - [Scikit-learn GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 - [Scikit-learn RandomizedSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
 - [Scikit-learn Model Evaluation](https://scikit-learn.org/stable/modules/model_evaluation.html)
-
-### What to Study Next
-
-After this, we can continue with:
-
-```text
-05 — Decision Trees From First Principles
-06 — Random Forests, Bagging, and Ensemble Variance Reduction
-```
-
-or:
-
-```text
-08 — Unsupervised Learning: Clustering and Representation Discovery
-```
 
 ---
 
