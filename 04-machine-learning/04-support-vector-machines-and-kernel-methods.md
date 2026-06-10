@@ -1397,23 +1397,9 @@ The boundary is controlled by the critical points near the margin.
 
 ---
 
-## 33. Interview-Level Explanation
 
-Short explanation:
 
-```text
-Support Vector Machine is a margin-based supervised learning algorithm. It finds the hyperplane that separates classes with the maximum margin. In the soft-margin version, it allows violations controlled by C and uses hinge loss. Kernel SVM extends this idea by replacing dot products with kernel functions, which allows nonlinear decision boundaries without explicitly computing high-dimensional feature maps.
-```
-
-More natural explanation:
-
-```text
-SVM tries to draw the safest possible boundary between two classes. It does not only ask whether the classes are separated; it asks whether they are separated with enough space. The closest points to the boundary are the support vectors, and kernels allow SVM to create nonlinear boundaries by measuring similarity in a richer hidden feature space.
-```
-
----
-
-## 34. What I Learned From This Lesson
+## 33. What I Learned From This Lesson
 
 SVM teaches:
 
@@ -1501,20 +1487,6 @@ Why are SVM scores not automatically probabilities?
 - [Scikit-learn LinearSVC](https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html)
 - [Scikit-learn SVR](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)
 
-### What to Study Next
-
-After this, we can return to the skipped tree-based lessons:
-
-```text
-05 — Decision Trees From First Principles
-06 — Random Forests, Bagging, and Ensemble Variance Reduction
-```
-
-or continue with:
-
-```text
-08 — Unsupervised Learning: Clustering and Representation Discovery
-```
 
 ---
 
