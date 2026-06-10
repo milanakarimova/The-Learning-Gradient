@@ -1063,25 +1063,6 @@ How does weighted KNN differ from ordinary KNN?
 - [Scikit-learn Nearest Neighbors User Guide](https://scikit-learn.org/stable/modules/neighbors.html)
 - [Scikit-learn StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)
 
-### What to Study Next
-
-The next ML lesson should be:
-
-```text
-04 — Naive Bayes From First Principles
-```
-
-KNN used local similarity.
-
-Naive Bayes will use probability and Bayes theorem.
-
-This contrast is important:
-
-```text
-KNN -> distance-based
-Naive Bayes -> probability-based
-Logistic Regression -> discriminative probabilistic linear classifier
-```
 
 ---
 
